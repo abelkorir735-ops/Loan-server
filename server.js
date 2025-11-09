@@ -60,7 +60,7 @@ app.post("/pay", async (req, res) => {
       external_reference: reference,
       customer_name: "Customer",
       callback_url: "https://server-bhz1.onrender.com/callback",
-      channel_id: "000235"
+      channel_id: "000205"
     };
 
     const url = "https://swiftwallet.co.ke/pay-app-v2/payments.php";
